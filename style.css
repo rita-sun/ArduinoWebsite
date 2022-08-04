@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 110px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:cornsilk;
+    text-decoration: none;
+    font-size: 24px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #008080;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #008080;
+    display: block;
+    margin: auto;
+}
+.text-box{
+    width: 90%;
+    color:cornsilk;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box h2{
+    font-size: 16px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 22px;
+    color: cornsilk;
+}
+.tal-btn{
+    display:inline-block;
+    text-decoration: none;
+    color: cornsilk;
+    border: 1px solid cornsilk;
+    padding: 12px 34px;
+    font-size: 25px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.tal-btn:hover{
+    border:1px solid #008080;
+    background-color: #008080;
+    transition:1s;
+}
+.subpage{
+    width: 100%;
+    min-height: 33vh;
+    background-color: #015c5c;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.subpage-text{
+    width: 90%;
+    color:cornsilk;
+    position: absolute;
+    top:63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.subpage h1{
+    font-size: 50px;
+    padding: 8px;
+}
+.subpage p{
+    font-size: 20px;
+    padding: 16px;
+}
+.projects {
+    width: 100%;
+    min-height: 65vh;
+    background-color:#8ebbba;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+.projects h2 {
+    font-size: 40px;
+    padding: 20px;
+    color: rgb(26, 24, 17);
+    text-decoration: underline;
+}
+.video {
+    width: 50%;
+    float: left;
+}
+.video iframe {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.details {
+    width: 50%;
+    float: right;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.details p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+}
+.details h3 {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+
+}
+.details ul li {
+    width: 20%;
+    list-style: circle;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    left:3%;
+    line-height: 35px;
+    font-family: 'Comic Neue', cursive;
+
+}
+.about-me {
+    width: 100%;
+    min-height: 67vh;
+    background-color:#8ebbba;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+.rita-image img {
+    width: 450px;
+    padding: 12px;
+}
+.description{
+    width: 1000px;
+}
+.description p {
+    padding: 20px 50px;
+    font-size: 25px;
+    font-family: 'Comic Neue', cursive;
+
+}
+.buy-btn{
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid cornsilk;
+}
+.buy-btn a{
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: cornsilk;
+}
+.buy-btn:hover{
+    border:1px solid #008080;
+    background-color: #008080;
+    transition:1s;
+}
+.res{
+    width: 100%;
+    min-height: 67vh;
+    background-color:#8ebbba;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+.elegoo-image img{
+    width:600px;
+}
+.paul-image img {
+    width:600px;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.rita-class{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
