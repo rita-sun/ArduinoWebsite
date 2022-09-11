@@ -95,6 +95,7 @@ nav img {
     background-size: cover;
     background-position: center;
     position: relative;
+    height: 400px;
 }
 .subpage-text{
     width: 90%;
@@ -104,6 +105,7 @@ nav img {
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    height: 150px;
 }
 .subpage h1{
     font-size: 50px;
@@ -129,8 +131,8 @@ nav img {
     text-decoration: underline;
 }
 .video {
-    width: 50%;
-    float: left;
+    width: 25%;
+    height: 25%;
 }
 .video iframe {
     position: absolute;
@@ -139,10 +141,10 @@ nav img {
 }
 .details {
     width: 50%;
-    float: right;
     padding-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
+    margin-left: 200px;
 }
 .details p {
     text-align: center;
@@ -238,4 +240,8 @@ nav img {
     justify-content: center;
     align-items: center;
     padding: 50px 0;
+}
+.project1{
+    display: flex;
+    flex-wrap: wrap;
 }
